@@ -31,9 +31,9 @@ a:active {
 <body style="background-color:white;">
 
 <h2 style="text-align:center;">Social</h2>
-<h3 href="https://www.instagram.com/mike_signo">Instagram</a>
+<p href="https://www.instagram.com/mike_signo">Instagram</a>
 <br>
-<h3 href="https://www.facebook.com/michele.signorini.73/
+<p href="https://www.facebook.com/michele.signorini.73/
 ">Facebook</a> 
   
   
