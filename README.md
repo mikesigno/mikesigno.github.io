@@ -6,8 +6,8 @@
 
 <h1>Heading</h1>
 <a href="https://www.instagram.com/mike_signo">Instagram</a>
-<h2>Photo</h2>
-<p><img src="img_girl.jpg" width="500" height="600"></p>
+<h2 style="color:red;">Photos</h2>
+<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
 <h2>Heading</h2>
 <p>My third paragraph.</p> 
   
