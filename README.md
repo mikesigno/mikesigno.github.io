@@ -53,8 +53,8 @@ src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="wid
 <a href="https://open.spotify.com/album/2qAcbXq0n5hxiCjzuWEMl6?si=oNQqNXMMSeG_0eHvfdjh0Q" target="_blank"><img 
 src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:323px;height:323px;"></a>
 
-<img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="320" height="320">
-<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="320" height="320">
+<img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="323" height="323">
+<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323">
 <p>My third paragraph.</p>  
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
