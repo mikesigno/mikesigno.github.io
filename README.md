@@ -60,7 +60,7 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
 <br>
-<img src="Images/Vumeter.jpeg" alt="Vumeter" width="320" height="320">
+<img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
 <p style="text-align:center;"> The custom VU Meter I made for Alessandro Quadraccia's Recording Studio.
 He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.</p>
 <br>
