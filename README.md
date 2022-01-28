@@ -4,7 +4,7 @@
 </head>
 <body style="background-color:white;">
 
-<h2>Social</h2>
+<h2 style="text-align:center;">Social</h2>
 <a href="https://www.instagram.com/mike_signo">Instagram</a>
 <br>
 <a href="https://www.facebook.com/michele.signorini.73/
