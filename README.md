@@ -54,8 +54,7 @@ src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="wid
 src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:323px;height:323px;"></a>
 
 <img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="323" height="323">
-<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323">
-<p>My third paragraph.</p>  
+<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323"> 
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
@@ -63,17 +62,17 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
-<p style="text-align:center;"> Speaker designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator
-<hr class="solid">
+<p><b> style="text-align:center;"> Speaker designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator
+<hr class="solid"<b></p>
   <br>  
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/quadraccia3.jpeg" alt="Vumeter" width="323" height="323">
-<p style="text-align:center;"> The custom VU Meter I made for Alessandro Quadraccia's Recording Studio.
+<p><b> style="text-align:center;"> The custom VU Meter I made for Alessandro Quadraccia's Recording Studio.
   He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.
   <br>
   The VU Meter has been calibrated to the EBU R128 Standard of 1.228 VRMS with an integration time of 300ms for rise and fall.</p>
-<hr class="solid">
+<hr class="solid"<b></p>
   <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
