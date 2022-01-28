@@ -40,7 +40,6 @@ a:active {
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
 <p>My third paragraph.</p>  
-<img src="img_girl.jpg" alt="Album Art" width="500" height="600">
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
