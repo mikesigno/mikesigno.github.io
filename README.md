@@ -64,8 +64,10 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/quadraccia3.jpeg" alt="Vumeter" width="323" height="323">
 <p style="text-align:center;"> The custom VU Meter I made for Alessandro Quadraccia's Recording Studio.
-He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.</p>
-<br>
+  He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.
+  <br>
+  The VU Meter has been calibrated to the EBU R128 Standard of 1.228 VRMS with an integration time of 300ms for rise and fall.</p>
+  <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
