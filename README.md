@@ -39,10 +39,10 @@ a:active {
   
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
-<img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="400" height="400"> 
-<img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="400" height="400"> 
-<img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="400" height="400"> 
-<img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="400" height="400"> 
+<img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="350" height="350"> 
+<img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="350" height="350"> 
+<img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="350" height="350"> 
+<img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="350" height="350"> 
 <p>My third paragraph.</p>  
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
