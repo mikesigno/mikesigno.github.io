@@ -10,7 +10,7 @@
 <a href="https://www.facebook.com/michele.signorini.73/
 ">Facebook</a>
 
-<h2 style="color:Black;">Engineer/Mixer/Producer</h2>
+<h2 style="texy-align:center;">Engineer/Mixer/Producer</h2>
 <p>My third paragraph.</p>  
 <img src="img_girl.jpg" alt="Album Art" width="500" height="600">
   
