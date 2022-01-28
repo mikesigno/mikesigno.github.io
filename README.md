@@ -60,9 +60,9 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
 <br>
-  <img src="Images/relaxocasse1.jpeg" alt="relaxo" width="323" height="323">
-  <img src="Images/relaxocasse2.jpeg" alt="relaxo" width="323" height="323">
-  <img src="Images/relaxocasse3.jpeg" alt="relaxo" width="323" height="323">
+  <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
+  <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
+  <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
 <br>  
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
