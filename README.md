@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
+<link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
 </head>
 
   
@@ -26,10 +26,6 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-  
-body {background-color: white;}
-h1   {color: blue;}
-a    {color: green;}
 </style>
 
   
@@ -45,7 +41,7 @@ a    {color: green;}
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img class="center" 
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
   
 <a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
