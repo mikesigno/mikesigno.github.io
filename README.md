@@ -41,16 +41,16 @@ a:active {
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img 
-src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:321px;height:321px;"></a>
+src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
   
 <a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
-src="Albumart/brve.jpg" title="Outer Space - Before Your Very Eyes [Single]" style="width:321px;height:321px;"></a>
+src="Albumart/brve.jpg" title="Outer Space - Before Your Very Eyes [Single]" style="width:323px;height:323px;"></a>
 
 <a href="https://open.spotify.com/album/5wDDmg9bMxP4HBiYzvBdZs?si=H1WLwqY4RFCH79pFOnbSMg" target="_blank"><img 
-src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="width:321px;height:321px;"></a>
+src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="width:323px;height:323px;"></a>
   
 <a href="https://open.spotify.com/album/2qAcbXq0n5hxiCjzuWEMl6?si=oNQqNXMMSeG_0eHvfdjh0Q" target="_blank"><img 
-src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:321px;height:321px;"></a>
+src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:323px;height:323px;"></a>
 
 <img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="320" height="320">
 <img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="320" height="320">
@@ -64,15 +64,28 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <h2 style="text-align:center;">My own music</h2>
 <a href="https://open.spotify.com/artist/2INf37Gsp0h6Wyntc8shHm?si=pGcYb1nhRhuy229OLk62AQ">Spotify</a>
 <br>
-<img src="Albumart/Metamophosis.jpg" alt="Dark Fantasy [Single]" width="320" height="320">
-<img src="Albumart/Sehn.jpg" alt="Metamorfosi" width="320" height="320">
-<img src="Albumart/risers.jpg" alt="Risers [EP]" width="320" height="320">
-<img src="Albumart/Burian.jpg" alt="What's Left of The Storm [Single]" width="320" height="320"> 
-<img src="Albumart/spaceman.jpg" alt="The Spaceman [Single]" width="320" height="320">
-<img src="Albumart/Dirto.jpg" alt="Pitch Dark Thoughts [Single]" width="320" height="320">
-<img src="Albumart/lmm.jpg" alt="Losing My Mind [EP]" width="320" height="320">
-<img src="Albumart/23.jpg" alt="Thrustodyne Aeronautics Model 23 [Single]" width="320" height="320">
   
+<a href="https://open.spotify.com/album/0fKlsLK6YmF7a2CNIp4hzx?si=JtDfT4t6TrCUY6tccr9SBw" target="_blank"><img 
+src="Albumart/Metamophosis.jpg" title="Dark Fantasy [Single]" style="width:323px;height:323px;"></a>
+  
+<a href="https://open.spotify.com/album/2iRPxi8r7PH4kVUP92xuhg?si=ecdc_7C0QyyaZU6ndq5plQ" target="_blank"><img 
+src="Albumart/Sehn.jpg" title="Metamorfosi [Single]" style="width:323px;height:323px;"></a>
+  
+<a href="https://open.spotify.com/album/07W4qBrvICP8fh5qz7EbfS?si=MqzuknceQlisTichfdsbrQ" target="_blank"><img 
+src="Albumart/risers.jpg" title="Risers [EP]" style="width:323px;height:323px;"></a>  
+  
+ <a href="https://open.spotify.com/album/3qVoTsBtFXArnMssABPrza?si=4l-FAl7TSBGvBCXzfSDIew" target="_blank"><img 
+src="Albumart/spaceman.jpg" title="The Spaceman [Single]" style="width:323px;height:323px;"></a> 
+  
+ <a href="https://open.spotify.com/album/30xEAgId48UfxBA95MHiaN?si=BYYr1ZbURNWZrDJmBO-Rsg" target="_blank"><img 
+src="Albumart/Dirto.jpg" title="Pitch Dark Thoughts [Single]" style="width:323px;height:323px;"></a> 
+
+ <a href="https://open.spotify.com/album/13Dt9J89hWYERyJipZsXGC?si=FZXKt0BSTDWTRNCO_WLjPA" target="_blank"><img 
+src="Albumart/lmm.jpg" title="Losing My Mind [EP]" style="width:323px;height:323px;"></a> 
+
+ <a href="https://open.spotify.com/album/0Z69cRFeih8HxHDQE22XSg?si=efBftQaaTWCx9-TONTd85A" target="_blank"><img 
+src="Albumart/23.jpg" title="Thrustodyne Aeronautics Model 23 [Single]" style="width:323px;height:323px;"></a> 
+
 <br>
 </body>
 </html>
