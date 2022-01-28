@@ -9,17 +9,17 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: pink;
+  color: yellow;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: pink;
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: yellow;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
