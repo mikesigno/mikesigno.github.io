@@ -2,6 +2,8 @@
 <html lang="en-US">
 <head>Where's your head?
 </head>
+
+  
 <style>
 a:link {
   color: green;
@@ -24,6 +26,8 @@ a:active {
   text-decoration: underline;
 }
 </style>
+
+  
 <body style="background-color:white;">
 
 <h2 style="text-align:center;">Social</h2>
