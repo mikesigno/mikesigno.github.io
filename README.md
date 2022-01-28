@@ -43,9 +43,9 @@ a:active {
 <img src="img_girl.jpg" alt="Album Art" width="500" height="600">
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
-<img src="Images/Nad3020.jpeg" alt="Nad3020">
-<img src="Images/Vumeter.jpeg" alt="Vumeter">
-<img src="Images/garage.jpeg" alt="Garage"> 
+<img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
+<img src="Images/Vumeter.jpeg" alt="Vumeter" width="500" height="500">
+<img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
 <a href="https://open.spotify.com/artist/2INf37Gsp0h6Wyntc8shHm?si=pGcYb1nhRhuy229OLk62AQ">Spotify</a>
