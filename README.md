@@ -39,6 +39,7 @@ a:active {
   
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
+<img src="Albumart/buonaserata.jpg" alt="Buonaserata EP" width="500" height="500"> 
 <p>My third paragraph.</p>  
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
