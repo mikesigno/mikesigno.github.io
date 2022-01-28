@@ -73,6 +73,7 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
   He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.
   <br>
   The VU Meter has been calibrated to the EBU R128 Standard of 1.228 VRMS with an integration time of 300ms for rise and fall.</p>
+<hr class="solid">
   <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
