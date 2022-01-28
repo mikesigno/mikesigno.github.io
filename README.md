@@ -42,16 +42,19 @@ a:active {
 <img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="320" height="320"> 
 <img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="320" height="320"> 
 <img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="320" height="320"> 
-<img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="320" height="320"> 
+<img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="320" height="320">
+<img src="Albumart/windyroad.jpeg" alt="Windy Road [Single]" width="320" height="320">
+<img src="Albumart/febbraio.jpeg" alt="Febbraio [EP]" width="320" height="320">
 <p>My third paragraph.</p>  
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
-<img src="Images/Vumeter.jpeg" alt="Vumeter" width="500" height="500">
+<img src="Images/Vumeter.jpeg" alt="Vumeter" width="320" height="320">
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
 <a href="https://open.spotify.com/artist/2INf37Gsp0h6Wyntc8shHm?si=pGcYb1nhRhuy229OLk62AQ">Spotify</a>
+
 
 <br>
 </body>
