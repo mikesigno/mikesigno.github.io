@@ -25,6 +25,10 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+  
+body {background-color: white;}
+h1   {color: blue;}
+a    {color: green;}
 </style>
 
   
