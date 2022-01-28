@@ -31,15 +31,18 @@ a:active {
 <body style="background-color:white;">
 
 <h2 style="text-align:center;">Social</h2>
-<p href="https://www.instagram.com/mike_signo">Instagram</a>
+<a href="https://www.instagram.com/mike_signo">Instagram</a>
 <br>
-<p href="https://www.facebook.com/michele.signorini.73/
+<a href="https://www.facebook.com/michele.signorini.73/
 ">Facebook</a> 
   
   
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
-<img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="320" height="320"> 
+  
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g"><img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" style="width:320px;height:320px;"></a>
+  
+<--! <img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="320" height="320"> -->
 <img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="320" height="320"> 
 <img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="320" height="320"> 
 <img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="320" height="320">
