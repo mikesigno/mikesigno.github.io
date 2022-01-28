@@ -63,6 +63,7 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
+<p style="text-align:center;"> Speaker designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator
 <br>  
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
