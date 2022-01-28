@@ -40,7 +40,7 @@ a:active {
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img 
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img class="center" 
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
   
 <a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
