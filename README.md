@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>Where's your head?
 </head>
-<body style="background-color:#F7F8E0;">
+<body style="background-color:white;">
 
 <h2>Social</h2>
 <a href="https://www.instagram.com/mike_signo">Instagram</a>
