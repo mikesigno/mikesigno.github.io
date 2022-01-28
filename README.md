@@ -9,7 +9,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: yellow;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
@@ -19,7 +19,7 @@ a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: red;
+  color: yellow;
   background-color: transparent;
   text-decoration: underline;
 }
