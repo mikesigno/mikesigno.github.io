@@ -54,6 +54,7 @@ a:active {
   
 <h2 style="text-align:center;">My own music</h2>
 <a href="https://open.spotify.com/artist/2INf37Gsp0h6Wyntc8shHm?si=pGcYb1nhRhuy229OLk62AQ">Spotify</a>
+<br>
 <img src="Albumart/Metamophosis.jpg" alt="Dark Fantasy [Single]" width="320" height="320">
 <img src="Albumart/Sehn.jpg" alt="Metamorfosi" width="320" height="320">
 <img src="Albumart/risers.jpg" alt="Risers [EP]" width="320" height="320">
