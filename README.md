@@ -40,13 +40,20 @@ a:active {
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g"><img src="Albumart/buonaserata.jpg" title="Buonaserata [EP]" style="width:320px;height:320px;"></a>
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g"><img 
+src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:321px;height:321px;"></a>
   
-<img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="320" height="320"> 
-<img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="320" height="320"> 
-<img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="320" height="320">
-<img src="Albumart/windyroad.jpeg" alt="Windy Road [Single]" width="320" height="320">
-<img src="Albumart/febbraio.jpeg" alt="Febbraio [EP]" width="320" height="320">
+<a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A"><img 
+src="Albumart/brve.jpg" title="Outer Space - Before Your Very Eyes [Single]" style="width:321px;height:321px;"></a>
+
+<a href="https://open.spotify.com/album/5wDDmg9bMxP4HBiYzvBdZs?si=H1WLwqY4RFCH79pFOnbSMg"><img 
+src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="width:321px;height:321px;"></a>
+  
+<a href="https://open.spotify.com/album/2qAcbXq0n5hxiCjzuWEMl6?si=oNQqNXMMSeG_0eHvfdjh0Q"><img 
+src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:321px;height:321px;"></a>
+
+<img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="320" height="320">
+<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="320" height="320">
 <p>My third paragraph.</p>  
   
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
