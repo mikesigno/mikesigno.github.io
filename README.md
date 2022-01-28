@@ -40,9 +40,8 @@ a:active {
   
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g"><img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" style="width:320px;height:320px;"></a>
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g"><img src="Albumart/buonaserata.jpg" title="Buonaserata [EP]" style="width:320px;height:320px;"></a>
   
-<--! <img src="Albumart/buonaserata.jpg" alt="Buonaserata [EP]" width="320" height="320"> -->
 <img src="Albumart/brve.jpg" alt="Before Your Very Eyes [Single]" width="320" height="320"> 
 <img src="Albumart/apollo11.jpeg" alt="Apollo 11 [Single]" width="320" height="320"> 
 <img src="Albumart/ifwefalltogether.jpeg" alt="If We Fall Together [Single]" width="320" height="320">
