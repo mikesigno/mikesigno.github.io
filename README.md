@@ -59,8 +59,11 @@ a:active {
 <img src="Albumart/Sehn.jpg" alt="Metamorfosi" width="320" height="320">
 <img src="Albumart/risers.jpg" alt="Risers [EP]" width="320" height="320">
 <img src="Albumart/Burian.jpg" alt="What's Left of The Storm [Single]" width="320" height="320"> 
-
-
+<img src="Albumart/spaceman.jpg" alt="The Spaceman [Single]" width="320" height="320">
+<img src="Albumart/Dirto.jpg" alt="Pitch Dark Thoughts [Single]" width="320" height="320">
+<img src="Albumart/lmm.jpg" alt="Losing My Mind [EP]" width="320" height="320">
+<img src="Albumart/23.jpg" alt="Thrustodyne Aeronautics Model 23 [Single]" width="320" height="320">
+  
 <br>
 </body>
 </html>
