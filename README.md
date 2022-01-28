@@ -4,12 +4,15 @@
 </head>
 <body>Body</body>
 
-<h1>Social</h1>
+<h2>Social</h2>
 <a href="https://www.instagram.com/mike_signo">Instagram</a>
-  
-<h1 style="color:blue;">Engineer/Mixer/Producer</h1>
+<br>
+<a href="https://www.facebook.com/michele.signorini.73/
+">Facebook</a>
+
+<h2 style="color:Black;">Engineer/Mixer/Producer</h2>
 <p>My third paragraph.</p>  
-<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+<img src="img_girl.jpg" alt="Album Art" width="500" height="600">
   
 <h2 title="My Electronics Projects">Electronics & Audio Devices</h2>
 <p>My third paragraph.</p> 
