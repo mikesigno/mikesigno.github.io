@@ -59,6 +59,7 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
 <br>
+  <h3 style="text-align:center;">Custom Speakers</h3>
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
@@ -66,6 +67,7 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <br>
   <hr class="solid">
   <br>
+  <h3 style="text-align:center;">My handmade Guitar</h3>
   <img src="Images/gtr2.jpg" alt="Guitar" width="323" height="323">
   <img src="Images/gtr1.jpg" alt="Guitar" width="323" height="323">
   <img src="Images/gtr3.jpg" alt="Guitar" width="323" height="323">
@@ -78,7 +80,8 @@ After many years of work, also helped by Edoardo Ristori, another person who com
 The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired.
 <br>
   <hr class="solid">
-  <br> 
+  <br>
+  <h2 style="text-align:center;">Custom VU Meter</h2>
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/quadraccia3.jpeg" alt="Vumeter" width="323" height="323">
