@@ -81,7 +81,7 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
 <br>
   <hr class="solid">
   <br>
-  <h2 style="text-align:center;">Custom VU Meter</h2>
+  <h3 style="text-align:center;">Custom VU Meter</h3>
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/quadraccia3.jpeg" alt="Vumeter" width="323" height="323">
