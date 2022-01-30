@@ -56,17 +56,19 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="323" height="323">
 <img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323"> 
   
+  
+ 
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
 <img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
+  
 <br>
   <h3 style="text-align:center;">Custom Speakers</h3>
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
 <p style="text-align:center;"> Speaker designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator
+
 <br>
-  <hr class="solid">
-  <br>
   <h3 style="text-align:center;">My handmade Guitar</h3>
   <img src="Images/gtr2.jpg" alt="Guitar" width="323" height="323">
   <img src="Images/gtr1.jpg" alt="Guitar" width="323" height="323">
@@ -75,9 +77,8 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 <br>
 After many years of work, also helped by Edoardo Ristori, another person who completes something when he starts it, I brought to light that instrument, born in my mind, puzzling myself in finding the best possible way to make it happen🤟🏻.
 The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired.
+  
 <br>
-  <hr class="solid">
-  <br>
   <h3 style="text-align:center;">Custom VU Meter</h3>
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
@@ -86,8 +87,8 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.
   <br>
   The VU Meter has been calibrated to the EBU R128 Standard of 1.228 VRMS with an integration time of 300ms for rise and fall.</p>
-<hr class="solid">
-  <br>
+
+<br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
