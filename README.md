@@ -70,7 +70,14 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
-<p style="text-align:center;"> Speaker designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator
+<p style="text-align:center;"> Speakers design shared to me by Alessandro De Quarto, Mastering Engineer, Amplifiers designer and teacher at the school of high musical specialization in Saluzzo, Italy. It's a One-way design with passive radiator </p>
+
+<br>
+  <h3 style="text-align:center;">Custom Speakers</h3>
+  <img src="Images/fe831.jpeg" alt="Fe83" width="323" height="323">
+  <img src="Images/fe832.jpg" alt="Fe83" width="323" height="323">
+  <img src="Images/fe833.jpg" alt="Fe83" width="323" height="323">
+<p style="text-align:center;"> Speakers designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator </p>
 
 <br>
   <h3 style="text-align:center;">My handmade Guitar</h3>
@@ -80,7 +87,7 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
 <p style="text-align:center;"> I remember very well when I walked into a famous Florentine musical instrument shop several years ago looking for some components to make a guitar myself. I was told very directly, almost as if I were an idiot, that many people who entered the shop with the idea of building a guitar by themselves have been through a lot, that I don't realize the difficulty of the job, it's not for everyone and to leave it alone.
 <br>
 After many years of work, also helped by Edoardo Ristori, another person who completes something when he starts it, I brought to light that instrument, born in my mind, puzzling myself in finding the best possible way to make it happen🤟🏻.
-The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired.
+The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired. </p>
   
 <br>
   <h3 style="text-align:center;">Custom VU Meter</h3>
@@ -115,12 +122,12 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/pickups2.jpg" alt="Pickups" width="323" height="323">
   <img src="Images/pickups3.jpg" alt="Pickups" width="158" height="323">
   <img src="Images/pickups4.jpg" alt="Pickups" width="158" height="323">
-  Installing chrome covers and vaxing on guitar pickups
+  <p style="text-align:center;"> Installing chrome covers and vaxing on guitar pickups </p>
 <br>
   <h3 style="text-align:center;">Fx Pedals</h3>
   <img src="Images/pedals1.jpg" alt="Fx Pedals" width="650" height="323">
   <img src="Images/pedals2.jpg" alt="Fx Pedals" width="323" height="323">
-  <p style="text-align:center;"> Klon Centaur Diode Distortion clone and custom Germanium transistor distortion</p>
+  <p style="text-align:center;"> Klon Centaur Diode Distortion clone and custom Germanium transistor distortion </p>
   <br>
 <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
