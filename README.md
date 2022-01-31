@@ -145,6 +145,9 @@ src="Albumart/Metamophosis.jpg" title="Dark Fantasy [Single]" style="width:323px
 <a href="https://open.spotify.com/album/2iRPxi8r7PH4kVUP92xuhg?si=ecdc_7C0QyyaZU6ndq5plQ" target="_blank"><img 
 src="Albumart/Sehn.jpg" title="Metamorfosi [Single]" style="width:323px;height:323px;"></a>
   
+<a href="https://open.spotify.com/album/0e0djVAJ9bOo4cntiUhTwQ?si=i2yct9gjTPOoXuzgYOSS1w" target="_blank"><img 
+src="Albumart/farinside.jpeg" title="Far Inside A Meatless Mother Arms [Single]" style="width:323px;height:323px;"></a>
+  
 <a href="https://open.spotify.com/album/07W4qBrvICP8fh5qz7EbfS?si=MqzuknceQlisTichfdsbrQ" target="_blank"><img 
 src="Albumart/risers.jpg" title="Risers [EP]" style="width:323px;height:323px;"></a>  
   
