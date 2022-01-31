@@ -30,15 +30,13 @@ a:active {
 <body style="background-color:white;" background-image:"9000.jpeg";>
 
 <h2 style="text-align:center;">Contacts</h2>
-<a style="text-align:center;" href="https://www.instagram.com/mike_signo"> Instagram </a>
-<br>
-<a style="text-align:center;" href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
-<br>
-<a style="text-align:center;" href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
-<br> 
   
-  
-  
+<div style="text-align:center">    
+  <a href="https://www.instagram.com/mike_signo"> Instagram </a>
+  <a href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
+  <a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
+</div>  
+    
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
