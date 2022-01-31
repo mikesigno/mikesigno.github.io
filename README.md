@@ -107,6 +107,12 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/midi4.jpeg" alt="Midi" width="323" height="323">
   <img src="Images/midi6.jpeg" alt="Midi" width="323" height="323">
 <br>
+  <h3 style="text-align:center;">Pickups</h3>
+  <img src="Images/pickups1.jpg" alt="Pickups" width="323" height="323">
+  <img src="Images/pickups2.jpeg" alt="Pickups" width="323" height="323">
+  <img src="Images/pickups3.jpeg" alt="Pickups" width="162" height="323">
+  <img src="Images/pickups4.jpeg" alt="Pickups" width="161" height="323">
+  <br>
 <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
