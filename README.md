@@ -52,6 +52,9 @@ src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]" style="wid
   
 <a href="https://open.spotify.com/album/2qAcbXq0n5hxiCjzuWEMl6?si=oNQqNXMMSeG_0eHvfdjh0Q" target="_blank"><img 
 src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]" style="width:323px;height:323px;"></a>
+  
+<a href="https://open.spotify.com/album/22HKLfk4Wy7YAZqbaN23dJ?si=UAO_yJRRQEGAs404ihufkg" target="_blank"><img 
+src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Single]" style="width:323px;height:323px;"></a>
 
 <img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="323" height="323">
 <img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323"> 
