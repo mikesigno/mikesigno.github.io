@@ -33,13 +33,13 @@ a:active {
   
 <div style="text-align:center">
     <p>
-  <a href="https://www.instagram.com/mike_signo"> Instagram </a>
+  <a href="https://www.instagram.com/mike_signo">Instagram</a>
     <p>
-  <a href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
+  <a href="https://www.facebook.com/michele.signorini.73/">Facebook</a>
     <p>
-  <a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
+  <a href="mailto:michelesignoriniaudio@gmail.com">Email</a>
     <p>
-  <a href="https://www.youtube.com/channel/UC95EWIHhB5IZdNod4Ntb1sg"> Youtube </a>  
+  <a href="https://www.youtube.com/channel/UC95EWIHhB5IZdNod4Ntb1sg">Youtube</a>  
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
