@@ -101,6 +101,7 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/midi4.jpeg" alt="Midi" width="323" height="323">
   <img src="Images/midi6.jpeg" alt="Midi" width="323" height="323">
 <br>
+<br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
