@@ -1,10 +1,7 @@
 <html lang="en-US">
 <head>
-  <title>My Page Title</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
+  <title>Michele Signorini</title>
 </head>
-
-  
 <style>
 a:link {
   color: red;
