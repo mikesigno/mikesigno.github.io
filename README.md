@@ -35,7 +35,8 @@ a:active {
 <br>
 <a href="https://www.facebook.com/michele.signorini.73/">Facebook</a>
 <br>
-<a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>.<br> 
+<a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
+<br> 
   
   
   
