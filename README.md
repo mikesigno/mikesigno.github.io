@@ -160,4 +160,7 @@ src="Albumart/lmm.jpg" title="Losing My Mind [EP]" style="width:323px;height:323
  <a href="https://open.spotify.com/album/0Z69cRFeih8HxHDQE22XSg?si=efBftQaaTWCx9-TONTd85A" target="_blank"><img 
 src="Albumart/23.jpg" title="Thrustodyne Aeronautics Model 23 [Single]" style="width:323px;height:323px;"></a> 
 
+ <a href="https://open.spotify.com/album/3SbkOsxs0FUMKNguqv7eaU?si=zffRAji2TMG2hH6DljF_jw" target="_blank"><img 
+src="Albumart/scar.jpg" title="Song for Those Waiting [Single]" style="width:323px;height:323px;"></a> 
+
 <br>
