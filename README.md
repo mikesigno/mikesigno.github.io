@@ -59,7 +59,8 @@ src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [S
 src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Single]" style="width:323px;height:323px;"></a>
 
 <img src="Albumart/windyroad.jpeg" title="Windy Road [Single]" width="323" height="323">
-<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323"> 
+<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]" width="323" height="323">
+<img src="Albumart/oldbridge.jpg" title="Old Bridge [Album]" width="323" height="323"> 
   
   
  
