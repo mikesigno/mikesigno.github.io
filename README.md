@@ -43,8 +43,6 @@ para1 {
   <a href="https://www.youtube.com/channel/UC95EWIHhB5IZdNod4Ntb1sg">Youtube</a>  
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
-  
-<img style="para1" src="Albumart/windyroad.jpeg" title="Windy Road [Single]">
 
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
