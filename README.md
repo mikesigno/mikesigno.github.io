@@ -30,7 +30,7 @@ a:active {
   
 <body style="background-color:white;">
 
-<h2 style="text-align:center;">Social</h2>
+<h2 style="text-align:center;">Contacts</h2>
 <a style="text-align:center;" href="https://www.instagram.com/mike_signo"> Instagram </a>
 <br>
 <a style="text-align:center;" href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
