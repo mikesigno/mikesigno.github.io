@@ -1,6 +1,10 @@
 <html lang="en-US">
 <head> <title>Michele Signorini</title> </head>
 <style>
+div.ex1 {
+  width: 323px;
+  height: 323px;
+}
 a:link {
   color: red;
   background-color: transparent;
@@ -39,7 +43,7 @@ a:active {
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<div style="width:323px;height:323px;">
+<div class=div.ex1>
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]"></a>  
 <a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
