@@ -21,6 +21,10 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.myDiv {
+  style="width:323px;height:323px;"    
+  text-align: center;
+}
 </style>
 
 <body style="background-color:white;">
@@ -39,7 +43,7 @@ a:active {
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
-<div style="width:323px;height:323px;">
+<div class="myDiv">
   
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]"></a>
