@@ -146,5 +146,3 @@ src="Albumart/lmm.jpg" title="Losing My Mind [EP]" style="width:323px;height:323
 src="Albumart/23.jpg" title="Thrustodyne Aeronautics Model 23 [Single]" style="width:323px;height:323px;"></a> 
 
 <br>
-</body>
-</html>
