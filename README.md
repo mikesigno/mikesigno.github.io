@@ -33,8 +33,8 @@ a:active {
 <h2 style="text-align:center;">Social</h2>
 <a href="https://www.instagram.com/mike_signo">Instagram</a>
 <br>
-<a href="https://www.facebook.com/michele.signorini.73/
-">Facebook</a> 
+<a href="https://www.facebook.com/michele.signorini.73/">Facebook</a>
+<a> michelesignoriniaudio@gmail.com <a/>
   
   
   
