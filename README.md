@@ -94,6 +94,8 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/lab1.jpg" alt="Garage" width="323" height="323">
   <img src="Images/lab2.jpg" alt="Garage" width="323" height="323">
   <img src="Images/lab3.jpg" alt="Garage" width="323" height="323">
+  <p style="text-align:center;"> From Left to Right: Tube amp attenuator with audio output and integrated 100W audio amp, 4000/8000 VAC Transformers with selectable output voltage (used to etch guitar), Capacitors and full wave bridge rectifier for power supply of JLH 1969 Class A Audio Amp.</p>
+  
 <br>
   <h3 style="text-align:center;">Custom Subwoofer</h3>
   <img src="Images/subr1.jpg" alt="Subwoofer" width="323" height="323">
