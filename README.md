@@ -39,6 +39,28 @@ a:active {
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
   
+<div style="width:323px;height:323px;">
+  
+<a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
+src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]"></a>
+  
+<a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
+src="Albumart/brve.jpg" title="Outer Space - Before Your Very Eyes [Single]"></a>
+
+<a href="https://open.spotify.com/album/5wDDmg9bMxP4HBiYzvBdZs?si=H1WLwqY4RFCH79pFOnbSMg" target="_blank"><img 
+src="Albumart/apollo11.jpeg" title="Outer Space - Apollo 11 [Single]"></a>
+  
+<a href="https://open.spotify.com/album/2qAcbXq0n5hxiCjzuWEMl6?si=oNQqNXMMSeG_0eHvfdjh0Q" target="_blank"><img 
+src="Albumart/ifwefalltogether.jpeg" title="Outer Space - If We Fall Together [Single]"></a>
+  
+<a href="https://open.spotify.com/album/22HKLfk4Wy7YAZqbaN23dJ?si=UAO_yJRRQEGAs404ihufkg" target="_blank"><img 
+src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Single]"></a>
+
+<img src="Albumart/windyroad.jpeg" title="Windy Road [Single]">
+<img src="Albumart/febbraio.jpeg" title="Febbraio [EP]">
+<img src="Albumart/oldbridge.jpg" title="Old Bridge [Album]"> 
+</div>
+  
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
   
