@@ -87,7 +87,11 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   He is working with artists such as Giuseppe Anastasi, Antonio Lusi and Valeria Farinacci.
   <br>
   The VU Meter has been calibrated to the EBU R128 Standard of 1.228 VRMS with an integration time of 300ms for rise and fall.</p>
-
+<br>
+  <h3 style="text-align:center;">Custom Speakers</h3>
+  <img src="Images/lab1.jpg" alt="Garage" width="323" height="323">
+  <img src="Images/lab2.jpg" alt="Garage" width="323" height="323">
+  <img src="Images/lab3.jpg" alt="Garage" width="323" height="323">
 <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
