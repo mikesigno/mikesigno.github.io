@@ -27,7 +27,7 @@ a:active {
 }
 </style>
 
-<body style="background-color:white;"> background-image: url('9000.jpeg');
+<body style="background-color:white;" background-image:"9000.jpeg";>
 
 <h2 style="text-align:center;">Contacts</h2>
 <a style="text-align:center;" href="https://www.instagram.com/mike_signo"> Instagram </a>
