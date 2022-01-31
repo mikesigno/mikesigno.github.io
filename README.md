@@ -113,10 +113,12 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/pickups2.jpg" alt="Pickups" width="323" height="323">
   <img src="Images/pickups3.jpg" alt="Pickups" width="158" height="323">
   <img src="Images/pickups4.jpg" alt="Pickups" width="158" height="323">
+  Installing chrome covers and vaxing on guitar pickups
 <br>
   <h3 style="text-align:center;">Fx Pedals</h3>
   <img src="Images/pedals1.jpg" alt="Fx Pedals" width="650" height="323">
   <img src="Images/pedals2.jpg" alt="Fx Pedals" width="323" height="323">
+  <p style="text-align:center;"> Klon Centaur Diode Distortion clone and custom Germanium transistor distortion</p>
   <br>
 <br>
 <img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
