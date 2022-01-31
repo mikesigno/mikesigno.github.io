@@ -31,7 +31,8 @@ a:active {
 
 <h2 style="text-align:center;">Contacts</h2>
   
-<div style="text-align:center">    
+<div style="text-align:center">
+    <p>
   <a href="https://www.instagram.com/mike_signo"> Instagram </a>
     <p>
   <a href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
