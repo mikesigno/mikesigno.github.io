@@ -83,7 +83,7 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
   <img src="Images/gtr1.jpg" alt="Guitar" width="323" height="323">
   <img src="Images/gtr3.jpg" alt="Guitar" width="323" height="323">
 <p style="text-align:center;"> I remember very well when I walked into a famous Florentine musical instrument shop several years ago looking for some components to make a guitar myself. I was told very directly, almost as if I were an idiot, that many people who entered the shop with the idea of building a guitar by themselves have been through a lot, that I don't realize the difficulty of the job, it's not for everyone and to leave it alone.
-<br>
+<p>
 After many years of work, also helped by Edoardo Ristori, another person who completes something when he starts it, I brought to light that instrument, born in my mind, puzzling myself in finding the best possible way to make it happen🤟🏻.
 The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired. </p>
   
