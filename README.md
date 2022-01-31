@@ -27,7 +27,7 @@ a:active {
 }
 </style>
 
-<body style="background-color:white;" style="background-image: url('Images/9000.jpeg');">
+<body style="background-color:white;">
 
 <h2 style="text-align:center;">Contacts</h2>
   
