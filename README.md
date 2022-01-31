@@ -31,11 +31,11 @@ a:active {
 <body style="background-color:white;">
 
 <h2 style="text-align:center;">Social</h2>
-<a href="https://www.instagram.com/mike_signo">Instagram</a>
+<a style="text-align:center;" href="https://www.instagram.com/mike_signo"> Instagram </a>
 <br>
-<a href="https://www.facebook.com/michele.signorini.73/">Facebook</a>
+<a style="text-align:center;" href="https://www.facebook.com/michele.signorini.73/"> Facebook </a>
 <br>
-<a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
+<a style="text-align:center;" href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
 <br> 
   
   
