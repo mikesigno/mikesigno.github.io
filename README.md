@@ -96,6 +96,12 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/lab2.jpg" alt="Garage" width="323" height="323">
   <img src="Images/lab3.jpg" alt="Garage" width="323" height="323">
 <br>
+  <h3 style="text-align:center;">Custom Subwoofer</h3>
+  <img src="Images/subr1.jpg" alt="Subwoofer" width="323" height="323">
+  <img src="Images/subr2.jpg" alt="Subwoofer" width="323" height="323">
+  <img src="Images/subr3.jpg" alt="Subwoofer" width="323" height="323">
+  <p style="text-align:center;"> Custom 22 Hz 350 Watt RMS Passive Radiator Subwoofer.</p>
+<br>
   <h3 style="text-align:center;">MIDI Controllers</h3>
   <img src="Images/midi3.jpg" alt="Midi" width="323" height="323">
   <img src="Images/midi4.jpeg" alt="Midi" width="323" height="323">
