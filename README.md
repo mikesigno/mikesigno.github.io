@@ -22,7 +22,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-#para1 {
+para1 {
  width="323";
  height="323";
 }
