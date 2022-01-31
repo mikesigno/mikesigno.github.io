@@ -40,7 +40,6 @@ a:active {
   <a href="mailto:michelesignoriniaudio@gmail.com"> Email </a>
     <p>
   <a href="https://www.youtube.com/channel/UC95EWIHhB5IZdNod4Ntb1sg"> Youtube </a>
-    <p>
 </div>  
     
 <h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
