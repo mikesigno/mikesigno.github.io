@@ -74,14 +74,7 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse2.jpg" alt="relaxo" width="323" height="323">
   <img src="Images/relaxocasse3.jpg" alt="relaxo" width="323" height="323">
-<p style="text-align:center;"> Speakers design shared to me by Alessandro De Quarto, Mastering Engineer, Amplifiers designer and teacher at the school of high musical specialization in Saluzzo, Italy. It's a One-way design with passive radiator </p>
-
-<br>
-  <h3 style="text-align:center;">Custom Speakers</h3>
-  <img src="Images/fe831.jpeg" alt="Fe83" width="323" height="323">
-  <img src="Images/fe832.jpg" alt="Fe83" width="323" height="323">
-  <img src="Images/fe833.jpg" alt="Fe83" width="323" height="323">
-<p style="text-align:center;"> Speakers designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator </p>
+<p style="text-align:center;">Speakers designed for the Relaxo Recording Studio in florence. It's a One-way design with passive radiator</p>
 
 <br>
   <h3 style="text-align:center;">My handmade Guitar</h3>
@@ -132,6 +125,12 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/pedals2.jpg" alt="Fx Pedals" width="323" height="323">
   <p style="text-align:center;"> Klon Centaur Diode Distortion clone and custom Germanium transistor distortion </p>
   <br>
+  <h3 style="text-align:center;">Custom Speakers</h3>
+  <img src="Images/fe831.jpeg" alt="Fe83" width="323" height="323">
+  <img src="Images/fe832.jpg" alt="Fe83" width="323" height="323">
+  <img src="Images/fe833.jpg" alt="Fe83" width="323" height="323">
+<p style="text-align:center;"> Speakers design shared to me by Alessandro De Quarto, Mastering Engineer, Amplifiers designer and teacher at the school of high musical specialization in Saluzzo, Italy. It's a One-way design with passive radiator  </p>
+<br>
 <br>
   
 <h2 style="text-align:center;">My own music</h2>
