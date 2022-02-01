@@ -112,13 +112,14 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <img src="Images/midi3.jpg" alt="Midi" width="323" height="323">
   <img src="Images/midi4.jpeg" alt="Midi" width="323" height="323">
   <img src="Images/midi6.jpeg" alt="Midi" width="323" height="323">
+  <p style="text-align:center;"> Midi controller based around ability of the Arduino Due and Pro Micro to be a MIDI Class Compliant device. We thinking how I wanted them to be helpful for my workflow I've tried to free myself from many of constraints of mixing in the box with mouse and keybord. They are powered by Bus power and don't need any external power supply.</p>
 <br>
   <h3 style="text-align:center;">Pickups</h3>
   <img src="Images/pickups1.jpg" alt="Pickups" width="323" height="323">
   <img src="Images/pickups2.jpg" alt="Pickups" width="323" height="323">
   <img src="Images/pickups3.jpg" alt="Pickups" width="158" height="323">
   <img src="Images/pickups4.jpg" alt="Pickups" width="158" height="323">
-  <p style="text-align:center;"> Installing chrome covers and vaxing on guitar pickups </p>
+  <p style="text-align:center;"> Installing chrome covers and vaxing on guitar pickups. I always liked the look of chrome covers on guitar pickups so when deciding what to do with a pair of Seymour Duncan I've had my go at it and make them look cool in my custom guitar.</p>
 <br>
   <h3 style="text-align:center;">Fx Pedals</h3>
   <img src="Images/pedals1.jpg" alt="Fx Pedals" width="650" height="323">
