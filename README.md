@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <title>"Michele Signorini"</title> 
 <head>
