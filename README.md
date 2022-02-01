@@ -93,7 +93,6 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
 After many years of work, also helped by Edoardo Ristori, another person who completes something when he starts it, I brought to light that instrument, born in my mind, puzzling myself in finding the best possible way to make it happen🤟🏻.
 The "lightning bolts" were made with very high (and very dangerous) voltage electrical discharges (real lightning strikes), which dug the wood into its veins as desired. </p>
   
-<br>
   <h3 style="text-align:center;">Custom VU Meter</h3>
   <img src="Images/quadraccia1.jpeg" alt="Vumeter" width="323" height="323">
   <img src="Images/Vumeter.jpeg" alt="Vumeter" width="323" height="323">
