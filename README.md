@@ -68,8 +68,7 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
   
  
 <h2 style="text-align:center;">Electronics/Audio Devices</h2>
-<img src="Images/Nad3020.jpeg" alt="Nad3020" width="500" height="350">
-  
+ 
 <br>
   <h3 style="text-align:center;">Custom Speakers</h3>
   <img src="Images/relaxocasse1.jpg" alt="relaxo" width="323" height="323">
@@ -135,7 +134,6 @@ The "lightning bolts" were made with very high (and very dangerous) voltage elec
   <p style="text-align:center;"> Klon Centaur Diode Distortion clone and custom Germanium transistor distortion </p>
   <br>
 <br>
-<img src="Images/garage.jpg" alt="Garage" width="500" height="700"> 
   
 <h2 style="text-align:center;">My own music</h2>
 <a href="https://open.spotify.com/artist/2INf37Gsp0h6Wyntc8shHm?si=pGcYb1nhRhuy229OLk62AQ">Spotify</a>
