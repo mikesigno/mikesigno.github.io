@@ -5,7 +5,6 @@
   h2 {color: black;text-align: center;} 
   h3 {color: black;text-align: center;} 
   p {color: black;text-align: center;}
-  alb {width:323px;height:323px;}
 a:link {
   color: red;
   background-color: transparent;
@@ -43,7 +42,7 @@ a:active {
 <h2>Engineer/Mixer/Producer</h2>
 
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
-src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" id="alb"></a>
+src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
   
 <a href="https://open.spotify.com/album/1OIG0EGALonfLYQdt5xCRa?si=44ucoqa5Tu-9JCNNsUwY0A" target="_blank"><img 
 src="Albumart/brve.jpg" title="Outer Space - Before Your Very Eyes [Single]" style="width:323px;height:323px;"></a>
