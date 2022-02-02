@@ -25,17 +25,11 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-para1 {
- width="323";
- height="323";
-}
 </style>
 
 <body style="background-color:white;">
 
 <h2>Contacts</h2>
-  
-<div style="text-align:center">
     <p>
   <a href="https://www.instagram.com/mike_signo">Instagram</a>
     <p>
