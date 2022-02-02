@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en-US">
 <head>
 <title>Michele Signorini</title>
@@ -161,6 +160,3 @@ src="Albumart/23.jpg" title="Thrustodyne Aeronautics Model 23 [Single]" style="w
 
  <a href="https://open.spotify.com/album/3SbkOsxs0FUMKNguqv7eaU?si=zffRAji2TMG2hH6DljF_jw" target="_blank"><img 
 src="Albumart/scar.jpg" title="Song for Those Waiting [Single]" style="width:323px;height:323px;"></a> 
-
-</body>
-</html>
