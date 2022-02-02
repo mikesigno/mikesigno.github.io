@@ -2,7 +2,6 @@
 <head>
 </head>
 <style>
-}
 a:link {
   color: red;
   background-color: transparent;
