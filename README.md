@@ -2,9 +2,9 @@
 <head>
 </head>
 <style>
-  h2 {color: black;text-align: center;} 
-  h3 {color: black;text-align: center;} 
-  p {color: black;text-align: center;}
+  h2 {color: black;text-align: center; font-family: Helvetica, sans-serif;} 
+  h3 {color: black;text-align: center; font-family: Helvetica, sans-serif;} 
+  p {color: black;text-align: center; font-family: Helvetica, sans-serif;} 
 a:link {
   color: red;
   background-color: transparent;
