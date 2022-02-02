@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <html lang="en-US">
-<title>"Michele Signorini"</title> 
 <head>
 </head>
 <style>
@@ -167,5 +165,3 @@ src="Albumart/23.jpg" title="Thrustodyne Aeronautics Model 23 [Single]" style="w
 src="Albumart/scar.jpg" title="Song for Those Waiting [Single]" style="width:323px;height:323px;"></a> 
 
 <br>
-</body>
-</html>
