@@ -45,7 +45,7 @@ para1 {
     <p>
   <a href="https://www.youtube.com/channel/UC95EWIHhB5IZdNod4Ntb1sg">Youtube</a>  
     
-<h2 style="text-align:center;">Engineer/Mixer/Producer</h2>
+<h2>Engineer/Mixer/Producer</h2>
 
 <a href="https://open.spotify.com/album/7sXodErOQbjD3Ix8rpTLuB?si=a4apRaUjSC2-LeQwSF-w8g" target="_blank"><img
 src="Albumart/buonaserata.jpg" title="Beacon Martin - Buonaserata [EP]" style="width:323px;height:323px;"></a>
@@ -68,7 +68,7 @@ src="Albumart/frattali.jpg" title="Beacon Martin - La Teoria Dei Frattali [Singl
   
   
  
-<h2 style="text-align:center;">Electronics/Audio Devices</h2>
+<h2>Electronics/Audio Devices</h2>
  
 <br>
   <h3 style="text-align:center;">Custom Speakers</h3>
