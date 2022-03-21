@@ -1,0 +1,50 @@
+h1 {font-size: 40px; color: #3B3B3B; text-align: center; letter-spacing: 0.02em; font-weight : 900; font-family: Avenir, Helvetica, sans-serif;} 
+h2 {font-size: 25px; color: #3B3B3B; text-align: center; letter-spacing: 0.01em; font-weight : 700; font-family: Avenir, Helvetica, sans-serif;} 
+h3 {font-size: 20px; color: #3B3B3B; text-align: center; letter-spacing: 0.01em; font-weight : 700; font-family: Avenir, Helvetica, sans-serif;} 
+p {font-size: 19px; text-align:justify;  text-justify: inter-word; padding-left: 5em; padding-right: 5em; color: #3B3B3B; text-align: center; letter-spacing: 0.03em; font-weight : 700; font-family: Avenir, Helvetica, sans-serif;} 
+
+a:link {font-size: 20px; text-align: center; font-weight : 500; color: red; background-color: transparent; text-decoration: none;}
+a:visited {text-align: center; font-weight : 500; color: red; background-color: transparent; text-decoration: none;}
+a:hover {text-align: center; font-weight : 500; color: pink; background-color: transparent; text-decoration: underline;}
+a:active {text-align: center; font-weight : 500; color: yellow; background-color: transparent; text-decoration: underline;}
+
+body {background-color: #F5F5F5;}
+
+img:hover{ -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px); filter: url(#blur); filter: blur(3px); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2'); -webkit-transition: 0.2s -webkit-filter linear; -moz-transition: 0.2s -moz-filter linear; -o-transition: 0.2s -o-filter linear;  
+transition: 0.2s filter linear; }
+
+body {margin: 0;}
+
+.image-grid4 {
+  --gap: 16px; 
+  --num-cols:4; 
+  --row-height:323px;
+  --row-length:323px;
+  box-sizing:border-box; 
+  padding-left: 3em; 
+  padding-right: 3em;  
+  display:grid; 
+  grid-template-columns:repeat(var(--num-cols), 1fr);
+  grid-auto-rows:repeat(var(--num-rows), 1fr); 
+  gap: var(--gap);}
+.image-grid4 > img {width: 100%; height: 100%; object-fit:cover;}
+.image-grid4-col-2 {grid-column: span 5;}
+.image-grid4-row-2 {grid-row: span 2;}
+/* Anything under 1024px */ @media screen and (max-width: 1024px) {.image-grid4 {--num-cols: 2;--num-rows: 2;--row-height: 323px;--row-length:323px;}}
+
+.image-grid3 {
+  --gap: 16px; 
+  --num-cols:3; 
+  --row-height:323px; 
+  --row-length:323px;
+  box-sizing:border-box; 
+  padding-left: 5em; 
+  padding-right: 5em; 
+  display:grid; 
+  grid-template-columns:repeat(var(--num-cols), 1fr);
+  grid-auto-rows:repeat(var(--num-rows), 1fr); 
+  gap: var(--gap);}
+.image-grid3 > img {width: 100%; height:100%; object-fit:cover;}
+.image-grid3-col-2 {grid-column: span 5;}
+.image-grid3-row-2 {grid-row: span 2;}
+/* Anything under 1024px */ @media screen and (max-width: 1024px) {.image-grid3 {--num-cols: 2;--num-rows: 2;--row-height: 323px;--row-length:323px;}}
