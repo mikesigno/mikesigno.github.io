@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /files.json
+---
+[{% for f in site.static_files %}{% if f.path contains '/products/' or f.path contains '/resources/downloads/' %}{{ f.path | jsonify }},{% endif %}{% endfor %}null]
