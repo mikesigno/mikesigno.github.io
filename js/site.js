@@ -71,8 +71,8 @@
   /* folders on GitHub: files.json (built by GitHub Pages) lists what is in each product and resources folder */
   var autoEls=[].slice.call(document.querySelectorAll('[data-auto-dl],[data-auto-photos]'));
   if(autoEls.length&&location.protocol.indexOf('http')===0){
-    var root=autoEls[0].getAttribute('data-root')||'';
-    fetch(root+'files.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(t){
+    var fjRoot=autoEls[0].getAttribute('data-root')||'';
+    fetch(fjRoot+'files.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(t){
       var all=JSON.parse(t).filter(function(p){return typeof p==='string'});
       var esc=function(x){return String(x).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
       var nice=function(f){return f.replace(/\.[^.]+$/,'').replace(/^\d+[-_ ]+/,'').replace(/[-_]+/g,' ').trim()};
