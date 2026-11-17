@@ -29,7 +29,41 @@ body.lay-d .board{grid-template-columns:minmax(240px,300px) minmax(0,1fr) minmax
 body.lay-d .a-meters{display:none}
 body.lay-d .a-faders{grid-row:1 / span 2;align-self:stretch}
 body.lay-d .a-faders section{height:100%}
-body:not(.lay-d) .ppmrow{display:none}
+body:not(.lay-d):not(.lay-e) .ppmrow{display:none}
+/* E (Michele, 17 Nov, default): guide over the VCA groups and master on the left, screen over the keyboard (letters on
+   top, command keys and number pad under them, Master Remote under those, as on the desk), channels with short meters
+   on the right, Faders / Probe / Modules tabs along the bottom */
+.a-vca{grid-area:vca;display:none}.a-bar{grid-area:bar;display:none}
+body.lay-e .a-vca{display:block}   /* 17 Nov 18:30 (Michele): the FADERS / PROBE / MODULES bar is gone */
+body.lay-e .board{grid-template-columns:minmax(250px,0.75fr) minmax(0,1.25fr) minmax(0,1fr);grid-template-rows:auto 1fr auto;grid-template-areas:"guide screen faders" "guide keys faders" "vca keys faders"}
+body.lay-e .a-guide section{height:var(--guideh,auto);max-height:var(--guideh,none);box-sizing:border-box}
+body.lay-e .a-vca{align-self:end}
+body.lay-e #fadersVca{gap:3px;margin-top:0}   /* 17 Nov (Michele): master right next to the VCA groups */
+body.lay-e .a-vca section{padding:10px 8px 8px}
+body.lay-e #fadersVca .fnum{display:none}   /* symmetric with the channel faders: strip bottoms line up */
+#tape,#speed{display:none}   /* 17 Nov (Michele): tape state, timecode and "running" not shown */
+#progSel{max-width:200px}
+body.lay-e .wrap{padding-bottom:14px}
+body.lay-e .a-meters{display:none}
+body.lay-e .a-faders{grid-row:1 / span 3;align-self:stretch}
+body.lay-e .a-faders section{height:100%}
+body.lay-e .kbdrow{flex-direction:column;align-items:center;gap:5px}
+/* 17 Nov (Michele): more room for the screen; the SL681G edge label, and the panel margin under the space bar and at the sides, trimmed */
+body.lay-e #kbd .label{display:none}
+body.lay-e .kbd{padding:10px 12px 8px}
+body.lay-e #kbd .row:last-child{margin-bottom:0}
+body.lay-e .ppmrow .mtop{margin-bottom:6px;justify-content:center}
+.a-bar section{padding:8px 12px}.a-bar .ftabs{margin:0}
+.a-vca section{padding-bottom:8px}
+/* E: each channel is one strip, module straight onto its own fader (17 Nov) */
+body.lay-e #fg-ch{gap:0}
+body.lay-e #fg-ch h3{margin-bottom:4px}
+body.lay-e #fg-ch .mods{margin-bottom:0;border-radius:3px 3px 0 0;scrollbar-width:none}
+body.lay-e #fg-ch .mods::-webkit-scrollbar{display:none}
+body.lay-e #fg-ch .strip{border-radius:0 0 3px 3px}
+/* E: no CHANNELS heading, no Fader-to-meters / source controls for now (Michele, 17 Nov; code kept) */
+body.lay-e #fg-ch > h3,body.lay-e .ppmrow .mtop,body.lay-e #fg-ch .fnum{display:none}   /* channel numbers already under the meters */
+@media (max-width:1100px){body.lay-e .board{grid-template-columns:1fr;grid-template-areas:"screen" "keys" "faders" "vca" "bar" "guide"} body.lay-e .a-faders{grid-row:auto}}
 .ppmrow{margin-bottom:6px}
 .ppmrow canvas{display:block;width:501px;height:170px}
 .ftabs .mtop{margin-left:8px}
@@ -120,7 +154,7 @@ input[type=file]{display:none}
 .fgroup h3{margin:0;font:600 .66rem var(--mono);letter-spacing:.1em;color:var(--muted)}
 .fgroup .strips{display:flex;gap:3px}
 .fader{display:flex;flex-direction:column;align-items:center;gap:4px;font:.72rem var(--mono);color:var(--muted)}
-.strip{position:relative;width:60px;height:370px;border-radius:3px;background:linear-gradient(90deg,#cfcfca,#e2e2dd 40%,#d6d6d1);box-shadow:inset 0 0 0 1px #9c9c97,0 4px 12px rgba(0,0,0,.45);user-select:none;-webkit-user-select:none;touch-action:none;font-family:var(--font);color:#2b2b2b}
+.strip{position:relative;width:60px;height:172px;border-radius:3px;background:linear-gradient(90deg,#cfcfca,#e2e2dd 40%,#d6d6d1);box-shadow:inset 0 0 0 1px #9c9c97,0 4px 12px rgba(0,0,0,.45);user-select:none;-webkit-user-select:none;touch-action:none;font-family:var(--font);color:#2b2b2b}
 .fstat{position:absolute;left:7px;top:9px;width:15px;height:22px;padding:0;border-radius:2px;border:1px solid #6d6d68;background:#f4f3ee;box-shadow:inset 0 -2px 0 #c9c8c1;cursor:pointer}
 .fstat:active{background:#d8d7cf;box-shadow:none}
 .fcut{position:absolute;left:5px;top:80px;width:24px;height:16px;padding:0;border-radius:2px;border:1px solid #6d6d68;background:#3a3836;color:#d9d6cf;font:700 7px var(--font);letter-spacing:.04em;box-shadow:inset 0 -2px 0 #1f1e1d;cursor:pointer}
@@ -132,14 +166,14 @@ input[type=file]{display:none}
 .fl{width:7px;height:7px;border-radius:50%;background:#bdbdb7;box-shadow:inset 0 0 0 1px #6d6d68}
 .fl.g.on{background:#3ddc6e;box-shadow:0 0 6px #3ddc6e,inset 0 0 0 1px #1d7d39}.fl.r.on{background:#ff4a3d;box-shadow:0 0 6px #ff4a3d,inset 0 0 0 1px #8d1a12}
 .fl.y.on{background:#ffd23d;box-shadow:0 0 6px #ffd23d,inset 0 0 0 1px #8a6d0d}
-.fslot{position:absolute;left:37px;top:14px;width:5px;height:260px;margin-left:-2.5px;border-radius:3px;background:#161616}
+.fslot{position:absolute;left:37px;top:14px;width:5px;height:130px;margin-left:-2.5px;border-radius:3px;background:#161616}
 .fscale{position:absolute;left:47px;font-size:7.5px;line-height:1;transform:translateY(-50%)}
 .fcap{position:absolute;left:28px;width:18px;height:34px;margin-top:-17px;border-radius:2px;cursor:grab;background:repeating-linear-gradient(180deg,#fafaf6 0 3px,#8e8e89 3px 4px);box-shadow:0 0 0 1px #6d6d68,0 2px 4px rgba(0,0,0,.35)}
 .fcap:after{content:"";position:absolute;left:-1px;right:-1px;top:16px;height:2px;background:#222}
 .fcap.drag{cursor:grabbing}
 .fcap.red{background:repeating-linear-gradient(180deg,#e04a3a 0 3px,#8a2318 3px 4px)}
-.fgrp-l{position:absolute;left:5px;top:296px;font-size:7px}
-.fgrp{position:absolute;left:5px;top:306px;width:17px;height:22px;padding:0;border:1px solid #444;border-radius:2px;background:#111;color:#f2f2f2;font:700 11px var(--mono);cursor:pointer}
+.fgrp-l{position:absolute;left:4px;top:110px;font-size:7px}
+.fgrp{position:absolute;left:5px;top:120px;width:17px;height:22px;padding:0;border:1px solid #444;border-radius:2px;background:#111;color:#f2f2f2;font:700 11px var(--mono);cursor:pointer}
 .fssl{position:absolute;left:5px;bottom:8px;font:700 8px var(--font);letter-spacing:.02em}
 .fscrew{position:absolute;left:33px;bottom:7px;width:9px;height:9px;border-radius:50%;border:1px solid #666;background:radial-gradient(circle,#ddd 40%,#aaa)}
 .fscrew:before,.fscrew:after{content:"";position:absolute;background:#555}
@@ -189,7 +223,6 @@ input[type=file]{display:none}
 <body>
 <div class="wrap">
   <header>
-    <h1>SSL 4000 Computer</h1>
     <div class="status">
       <span><span class="led" id="ledA"></span>program disk</span>
       <span><span class="led" id="ledB"></span>reel disk</span>
@@ -204,9 +237,9 @@ input[type=file]{display:none}
         <label class="ui"><input type="file" id="loadReel" accept=".img,application/octet-stream">Load reel…</label>
         <button class="ui" id="blankReel">Blank reel</button>
         <button class="ui" id="reboot">Reboot</button>
+        <label style="display:flex;gap:6px;align-items:center;margin-left:8px;font:.8rem var(--mono);color:var(--muted)">screen size <input type="range" id="scrSize" min="25" max="70" value="50" title="Share of the window height given to the screen; keyboards and faders shrink to fit the rest" style="width:110px;accent-color:var(--green)"></label>
       </div>
-      <label style="display:flex;gap:6px;align-items:center">layout <select class="ui" id="laySel" style="padding:2px 6px"><option value="d">D: keys and faders side by side</option><option value="a">A: screen centre</option><option value="b">B: faders under screen</option><option value="c">C: one column</option></select></label>
-      <label style="display:flex;gap:6px;align-items:center">screen size <input type="range" id="scrSize" min="25" max="70" value="45" title="Share of the window height given to the screen; keyboards and faders shrink to fit the rest" style="width:110px;accent-color:var(--green)"></label>
+      <label hidden style="display:none;gap:6px;align-items:center">layout <select class="ui" id="laySel" style="padding:2px 6px"><option value="e">E: keyboard centre, channels right</option><option value="d">D: keys and faders side by side</option><option value="a">A: screen centre</option><option value="b">B: faders under screen</option><option value="c">C: one column</option></select></label>
     </div>
   </header>
 
@@ -246,6 +279,8 @@ input[type=file]{display:none}
         </div>
       </section>
     </div>
+    <div class="area a-vca"><section><div class="fbank" id="fadersVca"></div></section></div>
+    <div class="area a-bar"><section id="barSec"></section></div>
     <div class="area a-keys">
       <div class="fit" id="kbdfit"><div class="kbdrow">
     <div class="kbd" id="kbd" tabindex="0">
@@ -1678,7 +1713,7 @@ function fkPress(n){
   if(fkRec){ if(FK[n] && FK[n].length && fkPending!==n){ fkPending=n; fkLed('flash'); return; }
     FK[n]=fkRec; fkRec=null; fkPending=null; fkLed('off'); try{ localStorage.setItem('ssl_fkeys',JSON.stringify(FK)); }catch(e){} return; }
   (FK[n]||[]).forEach(c=>sendCode(c)); }
-function fKey(n){ const b=mkKey('F'+n,null,'w2',undefined,undefined,'F'+(n+10));
+function fKey(n){ const b=mkKey('F'+n,null,'',undefined,undefined,'F'+(n+10));   // normal key width, as on the desk (was w2, 17 Nov)
   b.title='Programmable: F KEY WRITE, up to ten keys, then this key (Shift for F'+(n+10)+')';
   b.addEventListener('click',()=>{ const k=shift?n+10:n; shift=false; refreshShift(); fkPress(k); flash(b); }); return b; }
 function sendChar(ch){ return sendCode(ch.toUpperCase().charCodeAt(0)); }
@@ -1702,7 +1737,7 @@ function refreshShift(){ if(shiftKey) shiftKey.classList.toggle('on',shift); }
 // F1 02 play, F2 06/04 record, F3 08 wind, F4 10 rewind, F5 20 edit), so none of them is a top-row key.
 const frow=document.getElementById('frow');
 [[1,null],[2,null],[3,null],[4,null],[5,null]].forEach(([n])=>frow.appendChild(fKey(n)));
-const gp=document.createElement('div'); gp.className='gap'; gp.style.width='70px'; frow.appendChild(gp);
+const gp=document.createElement('div'); gp.className='gap'; gp.style.flex='1'; frow.appendChild(gp);   // F6-F10 end over RUB (17 Nov)
 [[6,null],[7,null],[8,null],[9,null],[10,null]].forEach(([n])=>frow.appendChild(fKey(n)));
 
 // main rows (shifted legend is its own code in the SSL table)
@@ -1719,6 +1754,7 @@ row([ 'A','S','D','F','G','H','J','K','L' ].map(c=>mkKey(c,ch(c))).concat([mkKey
 shiftKey=mkKey('SHIFT',null,'cmd sticky'); shiftKey.addEventListener('click',()=>{ shift=!shift; refreshShift(); });
 row([shiftKey].concat([ 'Z','X','C','V','B','N','M' ].map(c=>mkKey(c,ch(c)))).concat([mkKey(',',ch(',')), mkKey('.',ch('.')), mkKey(':',ch(':'))]), 4);
 row([mkKey('&nbsp;',0x20,'space')], 106);
+requestAnimationFrame(()=>{ const r1=main.querySelector('.row'); frow.style.width=(r1.offsetWidth-30)+'px'; if(window.fitPanels) fitPanels(); });
 
 // command block, 7 columns
 const cmd=document.getElementById('cmd');
@@ -1757,7 +1793,7 @@ function fitPanels(){
   kr.style.zoom=1; fb.style.zoom=1;
   const kw=kr.offsetWidth, kh=kr.offsetHeight, fw=fb.offsetWidth, fh=fb.offsetHeight, fx=fsec.offsetHeight-fh;
   const kW=document.getElementById('kbdfit').clientWidth, fW=fsec.clientWidth-32;
-  const lay=['a','b','c','d'].find(v=>document.body.classList.contains('lay-'+v))||'d';
+  const lay=['a','b','c','d','e'].find(v=>document.body.classList.contains('lay-'+v))||'e';
   const stacked=window.innerWidth<=1100;
   // screen height from the share, limited by the column width (4:3 tube plus bezel)
   let sh=Math.min(H*share, (col.clientWidth-32)*3/4+32);
@@ -1765,6 +1801,33 @@ function fitPanels(){
   if(lay==='b' && !stacked) sh=Math.min(sh, H*share);
   // what is left for keyboards + faders
   const rest=Math.max(200, H-sh-fx);
+  if(lay==='e' && !stacked){
+    // E: channels (short meters, modules if open, faders) take the right column's full height; the screen sits
+    // over the keyboard; the guide over the VCA groups and master on the left
+    // channels: the whole height from the top of the board to the bottom of the window (Michele, 17 Nov);
+    // screen, keyboard, guide and VCA groups: the same less the bottom bar
+    const bt=document.getElementById('board').getBoundingClientRect().top+window.scrollY, HA=Math.max(500, window.innerHeight-bt-16);
+    const vb=document.getElementById('fadersVca'), vsec=vb.parentElement, HE=HA, fxE=34;
+    vb.style.zoom=1; const vw=vb.offsetWidth, vh=vb.offsetHeight;
+    const mr=document.getElementById('mods'), mh=mr&&!mr.hidden?mr.offsetHeight:0, zW=Math.min(1.25, fW/fw);
+    if(mr&&!mr.hidden){ const want=Math.max(200, Math.min(MOD_H*MOD_SMALL, (HA-fxE)/zW-(fh-mh))); document.getElementById('board').style.setProperty('--modh', want+'px'); }
+    const fh2=fb.offsetHeight, zf=Math.min(1.25, (HA-fxE)/fh2, fW/fw);
+    const zk=Math.min(1.25, kW/kw, Math.max(0.45, (HE-sh-16)/kh));
+    sh=Math.max(220, Math.min(HE-kh*zk-16, (col.clientWidth-32)*3/4+32));
+    const vcs=getComputedStyle(vsec), vpad=(parseFloat(vcs.paddingLeft)||0)+(parseFloat(vcs.paddingRight)||0);
+    const zv=Math.min(1.25, (vsec.clientWidth-vpad-2)/vw, Math.max(160, HE-sh-16-34)/vh);
+    kr.style.zoom=zk; fb.style.zoom=zf; vb.style.zoom=zv; fb.hidden=fbHidden; pv.hidden=pvH;
+    // VCA strips: the column is too narrow for the channel size, so they are stretched 1.2x in height (Michele, 17 Nov: "a little bit taller")
+    { const VS=1.2; vb.style.transformOrigin='bottom center'; vb.style.transform='scaleY('+VS+')'; vb.style.marginTop=(vh*(VS-1))+'px'; }
+    document.getElementById('board').style.setProperty('--probeh', Math.max(240, fh2*zf)+'px');
+    mon.style.width=Math.max(300,(sh-32)*4/3+32)+'px'; document.getElementById('board').style.setProperty('--toph', sh+'px');
+    // left column: VCA panel at the bottom with its strip bottoms level with the channel strips, the guide above it
+    vsec.style.paddingBottom=''; const cs=fb.querySelector('#fg-ch .strip'), vs=vb.querySelector('.strip');
+    if(cs&&vs){ const secB=fsec.getBoundingClientRect().bottom, gapC=secB-cs.getBoundingClientRect().bottom, vB=vsec.getBoundingClientRect().bottom, gapV=vB-vs.getBoundingClientRect().bottom;
+      const pb=parseFloat(getComputedStyle(vsec).paddingBottom)||0; vsec.style.paddingBottom=Math.max(0,pb+gapC-gapV)+'px'; }
+    document.getElementById('board').style.setProperty('--guideh', Math.max(200, HA-vsec.getBoundingClientRect().height-16)+'px');
+    return;
+  }
   const side=lay==='d' && !stacked;
   if(side){
     const mr=document.getElementById('mods'), mh=mr&&!mr.hidden?mr.offsetHeight:0, zW=Math.min(1.25, fW/fw);
@@ -1818,7 +1881,7 @@ for(let n=1;n<=8;n++) FSPEC.push({kind:'ch',n,addr:FADER_ADDR[n]});
 for(let g=1;g<=8;g++) FSPEC.push({kind:'grp',n:g,addr:FADER_ADDR[48+g]});
 FSPEC.push({kind:'mst',n:0,addr:FADER_ADDR[0]});
 const NF=FSPEC.length, FLEDS=[], FCUT=[], ULTCUT=new Uint8Array(64), FCAP=[], FVAL=new Array(NF).fill(0), FGRP=new Array(8).fill(0), FGRPB=[];
-const SLOT_TOP=14, SLOT_H=260, CAP_TRAVEL=[24,264], STRIP_H=370;   // STRIP_H = .strip height in the CSS
+const SLOT_TOP=14, SLOT_H=130, CAP_TRAVEL=[24,134], STRIP_H=172;   // STRIP_H = .strip height in the CSS; fader travel halved 17 Nov (Michele); group thumbwheel moved beside the slot bottom, strip shortened
 const SCALE=[['10',.04],['5',.15],['0',.25],['5',.39],['10',.48],['20',.61],['30',.71],['40',.80],['50',.87],['∞',.95]];
 function capY(v){ return CAP_TRAVEL[1]-(CAP_TRAVEL[1]-CAP_TRAVEL[0])*v/1023; }
 function setFader(k,v){ v=Math.max(0,Math.min(1023,Math.round(v))); FVAL[k]=v; FCAP[k].style.top=capY(v)+'px'; if(M) M.adc.positions[FSPEC[k].addr]=1023-v; }
@@ -1834,7 +1897,7 @@ function makeStrip(k){
     const sb=document.createElement('button'); sb.type='button'; sb.className='fstat'; sb.title='status, '+name;
     sb.addEventListener('click',e=>{ e.preventDefault(); statusPress(sp); }); s.appendChild(sb);
     const ln=document.createElement('div'); ln.className='fstat-link'; s.appendChild(ln);
-    if(sp.kind==='ch'){ const cb=document.createElement('button'); cb.type='button'; cb.className='fcut'; cb.textContent='CUT'; cb.title='cut, '+name+' (latching, lit when the channel is cut)';
+    if(false && sp.kind==='ch'){ const cb=document.createElement('button'); cb.type='button'; cb.className='fcut'; cb.textContent='CUT';   // 17 Nov (Michele): removed, the channel CUT is the module's big CUT cb.title='cut, '+name+' (latching, lit when the channel is cut)';
       cb.setAttribute('aria-pressed','false'); cb.addEventListener('click',e=>{ e.preventDefault(); cutPress(sp); }); s.appendChild(cb); FCUT[k]=cb; }
     [['trim','g',40],['abs','r',52],['alt','y',64]].forEach(([n,c,y])=>{ const r=document.createElement('div'); r.className='fl-row'; r.style.top=y+'px';
       const t=document.createElement('span'); t.className='t'; t.textContent=n; const d=document.createElement('span'); d.className='fl '+c; r.appendChild(t); r.appendChild(d); s.appendChild(r); L[n]=d; });
@@ -1901,7 +1964,7 @@ function drawModule(g,n,sc){
       const cg=g.createLinearGradient(0,y,0,y+b); if(p){ cg.addColorStop(0,modLight(e.lit,1.25)); cg.addColorStop(1,e.lit); } else { cg.addColorStop(0,'#ece9e1'); cg.addColorStop(1,'#c4c0b6'); }
       g.fillStyle=cg; g.fillRect(x,y,a,b); if(p){ g.shadowColor=e.lit; g.shadowBlur=22; g.fillRect(x,y,a,b); g.shadowBlur=0; }
       dark(x,y,a,b); if(e.led) led(e.led[0],e.led[1],p,'#ff4a3d'); }
-    else if(k==='big'){ const p=on(c);
+    else if(k==='big'){ const sp=e.name==='CUT'?chSpec(n):null, p=sp&&M?cutLit(sp):on(c);   // CUT lamp = the channel's real cut (switch or computer replay)
       g.fillStyle='#0c0c0d'; g.fillRect(x,y,a,b);
       const f=[x+12,y+12,a-24,b-24]; const cg=g.createLinearGradient(0,f[1],0,f[1]+f[3]);
       if(p){ cg.addColorStop(0,modLight(e.lit,1.35)); cg.addColorStop(1,e.lit); } else { cg.addColorStop(0,'#e4e0d6'); cg.addColorStop(1,'#b9b5ab'); }
@@ -1941,7 +2004,8 @@ function bindModule(cv,getN,scaleOf,big){
     if(c[0]!=='knob') return; const dy=drag.y-ev.clientY; if(Math.abs(dy)>2) drag.moved=true;
     if(drag.moved){ modSet(drag.n,c,Math.max(0,Math.min(1023,drag.v0+dy*(big?5:9)))); refreshModules(); } });
   const end=ev=>{ if(!drag) return; const c=drag.c;
-    if(!drag.moved&&c[0]!=='knob'&&c[0]!=='slider') modSet(drag.n,c,drag.v0<512?1023:0);
+    if(!drag.moved&&c[0]!=='knob'&&c[0]!=='slider'){ modSet(drag.n,c,drag.v0<512?1023:0);
+      if(c[0]==='big'&&c[6].name==='CUT'){ const sp=chSpec(drag.n); if(sp) cutPress(sp); } }
     drag=null; refreshModules(); };
   cv.addEventListener('pointerup',end); cv.addEventListener('pointercancel',()=>{ drag=null; });
   if(big) cv.addEventListener('wheel',ev=>{ const [px,py]=at(ev), c=modHit(px,py); if(!c||(c[0]!=='knob'&&c[0]!=='slider')||!M||!M.trl) return; ev.preventDefault();
@@ -1976,7 +2040,8 @@ function openModule(n){
   const w=Math.min(300,Math.max(220,Math.round(window.innerWidth*0.16))); MBIG.cv.style.width=w+'px'; MBIG.cv.style.height=(w*MOD_H/MOD_W)+'px';
   MBIG.cv.width=w*2; MBIG.cv.height=Math.round(w*2*MOD_H/MOD_W); refreshModules(true);
 }
-function modSig(n){ if(!M||!M.trl) return 'x'; const a=M.trl.controlsFor(trKey(n)); let h=0; for(let i=0;i<128;i++) h=(h*31+a[i])|0; return h+(MOD_TW?'a':'b'); }
+function chSpec(n){ return FSPEC.find(s=>s.kind==='ch'&&s.n===n)||null; }
+function modSig(n){ if(!M||!M.trl) return 'x'; const a=M.trl.controlsFor(trKey(n)); let h=0; for(let i=0;i<128;i++) h=(h*31+a[i])|0; const sp=chSpec(n); return h+(MOD_TW?'a':'b')+(sp&&cutLit(sp)?'c':''); }
 function refreshModules(force){
   const sel=(typeof scrShown!=='undefined'&&scrShown==='tr'&&window.trChannel)?trChannel():0;
   if(!document.getElementById('mods').hidden) MODS.forEach(m=>{ const sg=modSig(m.n); m.el.classList.toggle('trsel',sel===m.n); if(force||sg!==m.sig){ m.sig=sg; drawModule(m.g,m.n,m.cv.width/MOD_W); } });
@@ -1984,16 +2049,24 @@ function refreshModules(force){
     if(force||sg!==MBIG.sig){ MBIG.sig=sg; drawModule(MBIG.g,MBIG.n,MBIG.cv.width/MOD_W); } }
 }
 [['CHANNELS','ch'],['VCA GROUPS','grp'],['MASTER','mst']].forEach(([title,kind])=>{
-  const g=document.createElement('div'); g.className='fgroup'; const h=document.createElement('h3'); h.textContent=title; g.appendChild(h);
+  const g=document.createElement('div'); g.className='fgroup'; g.id='fg-'+kind; const h=document.createElement('h3'); h.textContent=title; g.appendChild(h);
   if(kind==='ch'){ const pr=document.createElement('div'); pr.className='ppmrow'; pr.innerHTML='<canvas id="ppm2" width="1002" height="340" aria-label="PPM meters, channels 1-8"></canvas>'; g.appendChild(pr); }
   if(kind==='ch'){ const mr=document.createElement('div'); mr.className='mods'; mr.id='mods'; for(let n=1;n<=8;n++) mr.appendChild(makeModule(n)); g.appendChild(mr); }
   const row=document.createElement('div'); row.className='strips'; g.appendChild(row);
   FSPEC.forEach((sp,k)=>{ if(sp.kind===kind) row.appendChild(makeStrip(k)); }); fd.appendChild(g); });
 FSPEC.forEach((sp,k)=>setFader(k,0));
 { const tg=document.getElementById('modTog'), mr=document.getElementById('mods');
-  let on=true; try{ on=localStorage.getItem('sslMods')!=='0'; }catch(e){}
+  // layout E keeps its own Modules state, open by default (Michele, 17 Nov: the channel strips sit on the right);
+  // the other layouts share 'sslMods'
+  const modKey=()=>document.body.classList.contains('lay-e')?'sslModsE2':'sslMods';
+  const stored=()=>{ if(document.body.classList.contains('lay-e')) return true; try{ return localStorage.getItem(modKey())!=='0'; }catch(e){ return true; } };   // E: always open, its button is hidden
+  let on=stored();
   const apply=()=>{ mr.hidden=!on; tg.classList.toggle('on',on); tg.setAttribute('aria-pressed',String(on)); if(on) refreshModules(true); requestAnimationFrame(fitPanels); };
-  tg.addEventListener('click',()=>{ on=!on; try{ localStorage.setItem('sslMods',on?'1':'0'); }catch(e){} apply(); });
+  tg.addEventListener('click',()=>{ on=!on; try{ localStorage.setItem(modKey(),on?'1':'0'); }catch(e){} apply(); });
+  // E: open the module window at the bottom of the strips (monitor and pan, next to the fader); scroll up for the rest
+  const toBottom=()=>{ if(document.body.classList.contains('lay-e')&&!mr.hidden) requestAnimationFrame(()=>requestAnimationFrame(()=>{ mr.scrollTop=mr.scrollHeight; })); };
+  window.modsForLayout=()=>{ on=stored(); apply(); toBottom(); setTimeout(toBottom,400); setTimeout(toBottom,1600); };
+  tg.addEventListener('click',toBottom);
   apply(); setInterval(()=>refreshModules(false),400); }
 
 // Status buttons and LEDs.  G4.01: the switch cards (button n = channel n, 49-56 = VCA groups 1-8) and the lamp word
@@ -2029,12 +2102,20 @@ function updateFaderLeds(t){ if(!M) return; const slow=Math.floor(t/200)%2===0, 
 
 // layout choice (D keys and faders side by side, A screen centre, B faders under the screen, C one column), remembered in this browser
 const laySel=document.getElementById('laySel');
-function setLayout(v){ document.body.classList.remove('lay-a','lay-b','lay-c','lay-d'); document.body.classList.add('lay-'+v); laySel.value=v;
-  { const mt=document.querySelector('.mtop'), ft=document.querySelector('.ftabs'), ms=document.querySelector('.a-meters section'), tg=document.getElementById('modTog');
-    if(v==='d'){ if(mt.parentElement!==ft) ft.insertBefore(mt,tg); } else if(mt.parentElement!==ms) ms.insertBefore(mt,document.getElementById('ppm')); }
-  try{ localStorage.setItem('ssl_layout2',v); }catch(e){} requestAnimationFrame(fitPanels); }
+function setLayout(v){ document.body.classList.remove('lay-a','lay-b','lay-c','lay-d','lay-e'); document.body.classList.add('lay-'+v); laySel.value=v;
+  { // E: VCA groups and master go left of the keyboard, the tabs to the bottom bar; other layouts put them back
+    const fd=document.getElementById('faders'), fv=document.getElementById('fadersVca'), fsec=fd.parentElement, ft=document.querySelector('.ftabs'), bar=document.getElementById('barSec');
+    const gv=document.getElementById('fg-grp'), gm=document.getElementById('fg-mst');
+    if(v==='e'){ fv.appendChild(gv); fv.appendChild(gm); if(ft.parentElement!==bar) bar.appendChild(ft); }
+    else { fd.appendChild(gv); fd.appendChild(gm); fv.style.zoom=1; if(ft.parentElement!==fsec) fsec.insertBefore(ft, fsec.firstChild); } }
+  { const mt=document.querySelector('.mtop'), ft=document.querySelector('.ftabs'), ms=document.querySelector('.a-meters section'), tg=document.getElementById('modTog'), pr=document.querySelector('#fg-ch .ppmrow');
+    if(v==='d'){ if(mt.parentElement!==ft) ft.insertBefore(mt,tg); }
+    else if(v==='e'){ if(mt.parentElement!==pr) pr.insertBefore(mt,pr.firstChild); }
+    else if(mt.parentElement!==ms) ms.insertBefore(mt,document.getElementById('ppm')); }
+  if(window.modsForLayout) modsForLayout();
+  try{ localStorage.setItem('ssl_layout3',v); }catch(e){} requestAnimationFrame(fitPanels); }
 laySel.addEventListener('change',()=>setLayout(laySel.value));
-{ let v='d'; try{ v=localStorage.getItem('ssl_layout2')||'d'; }catch(e){} setLayout(['a','b','c','d'].includes(v)?v:'d'); }
+setLayout('e');   // 17 Nov: layout selector removed from view (Michele); the page always opens in E
 
 // drives
 document.getElementById('saveReel').addEventListener('click',()=>{ const b=new Blob([REEL],{type:'application/octet-stream'}); const a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download='ssl_reel.img'; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000); });
@@ -2407,7 +2488,7 @@ const GUIDE=[
       // while the channel's record ready button (module address 68) is in
       const rr=modVal(i+1,68)>=512, hw=(w-6)/2, fs=Math.min(6.5,6.5*kx);
       g.font='bold '+fs+'px Helvetica, Arial, sans-serif';
-      g.fillStyle=ftmOn?'#ffb347':'#39d353'; g.fillText(ftmOn?'FADER':(rg?'GROUP':'TAPE'),x0+3+hw/2,9.5);
+      g.fillStyle=ftmOn?'#ffb347':(rg?'#ffc23d':'#39d353'); g.fillText(ftmOn?'FADER':(rg?'GROUP':'TAPE'),x0+3+hw/2,9.5);   // GROUP in the READY GROUP button's colour, TAPE in READY TAPE's (17 Nov)
       g.fillStyle='#2a201d'; g.fillRect(x0+3+hw,4,1,10);
       if(rr){ g.save(); g.fillStyle='rgba(255,42,31,.22)'; g.fillRect(x0+4+hw,3,hw-1,12); g.shadowColor='#ff2a1f'; g.shadowBlur=8; g.fillStyle='#ff4a3d'; g.fillText('REC',x0+3+hw*1.5,9.5); g.restore(); }
       else { g.fillStyle='#3a1512'; g.fillText('REC',x0+3+hw*1.5,9.5); }
