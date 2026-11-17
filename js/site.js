@@ -80,9 +80,14 @@
       autoEls.forEach(function(el){
         var pre=el.getAttribute('data-prefix');
         if(el.hasAttribute('data-auto-dl')){
-          var files=inDir(el.getAttribute('data-auto-dl'),/\.[a-z0-9_]+$/i);
-          el.innerHTML=files.map(function(f){var k=(f.match(/\.([^.]+)$/)||['',''])[1].toUpperCase();
-            return '<li><a class="doc-row" href="'+esc(pre+encodeURIComponent(f))+'" download><span class="doc-t">'+esc(nice(f))+'</span><span class="doc-k">'+esc(k)+'</span><span class="arr">↓</span></a></li>'}).join('');
+          var dlDir=el.getAttribute('data-auto-dl'),files=inDir(dlDir,/\.[a-z0-9_]+$/i);
+          var pvDir=dlDir.replace(/downloads\/$/,'previews/'),pvPre=pre.replace(/downloads\/$/,'previews/');
+          var have=[].slice.call(el.querySelectorAll('li[data-name]')).map(function(l){return l.getAttribute('data-name')});
+          if(files.join('|')!==have.join('|'))el.innerHTML=files.map(function(f){var k=(f.match(/\.([^.]+)$/)||['',''])[1].toUpperCase(),h=esc(pre+encodeURIComponent(f)),n=esc(nice(f));
+            var pv=f.replace(/\.[^.]+$/,'')+'.jpg';
+            if(/\.pdf$/i.test(f)&&all.indexOf(pvDir+pv)>=0)
+              return '<li class="doc-card" data-name="'+esc(f)+'"><a class="doc-prev" href="'+h+'" target="_blank" rel="noopener" aria-label="Open '+n+'"><img src="'+esc(pvPre+encodeURIComponent(pv))+'" alt="First page of '+n+'" loading="lazy"></a><div class="doc-body"><a class="doc-name" href="'+h+'" target="_blank" rel="noopener">'+n+'</a><span class="doc-meta">PDF</span><span class="doc-acts"><a href="'+h+'" target="_blank" rel="noopener">View <span class="arr">→</span></a><a href="'+h+'" download>Download <span class="arr">↓</span></a></span></div></li>';
+            return '<li data-name="'+esc(f)+'"><a class="doc-row" href="'+h+'" download><span class="doc-t">'+n+'</span><span class="doc-k">'+esc(k)+'</span><span class="arr">↓</span></a></li>'}).join('');
           var em=el.parentNode.querySelector('.doc-empty');if(em)em.hidden=!!(files.length||el.getAttribute('data-has-links')==='1');
         }else{
           var ph=inDir(el.getAttribute('data-auto-photos'),/\.(jpe?g|png|webp|gif)$/i);
