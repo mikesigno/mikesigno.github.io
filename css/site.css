@@ -312,7 +312,7 @@ section{padding:110px 0}
   .lb .prev,.lb .next{top:auto;bottom:16px;transform:none}
   .lb .count{bottom:30px}
 }
-.menu li.theme-li{display:none}
+@media (min-width:901px){.menu li.theme-li{display:none}}
 
 /* terms */
 .tc{display:grid;grid-template-columns:300px 1fr;gap:64px;align-items:start}
