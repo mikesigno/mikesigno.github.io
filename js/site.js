@@ -75,7 +75,7 @@
     fetch(fjRoot+'files.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(t){
       var all=JSON.parse(t).filter(function(p){return typeof p==='string'});
       var esc=function(x){return String(x).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
-      var nice=function(f){return f.replace(/\.[^.]+$/,'').replace(/^\d+[-_ ]+/,'').replace(/[-_]+/g,' ').trim()};
+      var nice=function(f){return f.replace(/\.[^.]+$/,'').replace(/^\d+[-_ ]+/,'').replace(/\s*--+\s*/g,': ').replace(/[-_]+/g,' ').trim()};
       var inDir=function(dir,re){return all.filter(function(p){if(p.indexOf(dir)!==0)return false;var n=p.slice(dir.length);return n.indexOf('/')<0&&n.charAt(0)!=='_'&&n.charAt(0)!=='.'&&re.test(n)}).map(function(p){return p.slice(dir.length)}).sort()};
       autoEls.forEach(function(el){
         var pre=el.getAttribute('data-prefix');
