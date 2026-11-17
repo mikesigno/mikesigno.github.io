@@ -1671,7 +1671,9 @@ function boot(){
   if(typeof FVAL!=='undefined') FVAL.forEach((v,k)=>{ M.adc.positions[FSPEC[k].addr]=1023-v; });
   document.getElementById('halt').className='halt';
   // boot quickly, then settle to real time
-  M.run(3000000); draw(M.vdu.mem); M.vdu.dirty=false; scrShown='';
+  // 17 Nov (Michele): no instant start any more; the machine runs in real time from power-on, so the SSL logo and
+  // the Loading line show for a second or two, as after BEGIN on the desk
+  draw(M.vdu.mem); M.vdu.dirty=false; scrShown='';
   lastT=performance.now(); stepsAtT=M.cpu.steps;
   document.getElementById('speed').textContent='running';
   if(M.halted) showHalt();   // stopped during the fast start (a bad program file): say so, the frame loop skips a halted machine
