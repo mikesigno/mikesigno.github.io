@@ -1,5 +1,5 @@
-SSL 4000 computer replica
-Page: https://mikesigno.github.io/products/ssl-4000-computer-replica/
+SSL SL691 computer replica
+Page: https://mikesigno.github.io/products/ssl-sl691-computer/
 
 photos/     Slideshow photos, shown in file-name order. Number them to set the order:
             01-front.jpg, 02-inside.jpg ... Keep each under about 1 MB if you can.

@@ -576,3 +576,13 @@ section.prod-first{padding-top:36px}
 section#book{padding-bottom:0}
 /* slideshow: show whole photos (portrait shots too) instead of cropping */
 .slide img{object-fit:contain;background:var(--bg-2)}
+/* test drive: clickable preview in the slideshow, and its button */
+.slide.td-slide{cursor:pointer}
+.td-slide img{transition:filter .3s,transform .5s}
+.td-slide:hover img{filter:brightness(.8);transform:scale(1.01)}
+.td-cta{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);display:inline-flex;align-items:center;gap:12px;padding:13px 20px;background:var(--accent);color:var(--accent-ink);font-family:var(--mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:2px;box-shadow:0 10px 28px rgba(0,0,0,.45);white-space:nowrap;transition:transform .2s}
+.td-play{font-size:11px}
+.td-slide:hover .td-cta{transform:translateX(-50%) translateY(-2px)}
+.btn.td-btn{border-color:var(--accent);color:var(--accent)}
+.btn.td-btn:hover{background:var(--accent);color:var(--accent-ink)}
+@media (max-width:600px){.td-cta{left:12px;bottom:12px;transform:none;padding:9px 12px;font-size:10.5px;gap:8px}.td-slide:hover .td-cta{transform:none}}
