@@ -586,3 +586,10 @@ section#book{padding-bottom:0}
 .btn.td-btn{border-color:var(--accent);color:var(--accent)}
 .btn.td-btn:hover{background:var(--accent);color:var(--accent-ink)}
 @media (max-width:600px){.td-cta{left:12px;bottom:12px;transform:none;padding:9px 12px;font-size:10.5px;gap:8px}.td-slide:hover .td-cta{transform:none}}
+/* Resources: tape referral box */
+.tape-box{margin-top:28px;padding:22px 24px;border:1px solid var(--line-2);background:var(--bg-2)}
+.tape-box h3{margin:0 0 8px;font-family:var(--display);font-stretch:112%;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase}
+.tape-box p{margin:0 0 16px;color:var(--ink-2)}
+.tape-link{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);text-decoration:none;border:1px solid var(--accent);padding:11px 16px;transition:background .2s,color .2s}
+.tape-link:hover{background:var(--accent);color:var(--accent-ink)}
+.tape-note{display:block;margin-top:10px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
